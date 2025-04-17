@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nation of Light</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom, #fdf6e3, #f0f4ff);
+      color: #111;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+    }
+    header img {
+      max-width: 200px;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    p.bio {
+      max-width: 600px;
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+    }
+    a.button {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background: #111;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      margin-bottom: 2rem;
+    }
+    .socials a {
+      margin: 0 0.5rem;
+      text-decoration: none;
+      color: #111;
+      font-size: 1.4rem;
+    }
+    form {
+      margin-top: 2rem;
+      max-width: 400px;
+      width: 100%;
+    }
+    input, textarea, button {
+      width: 100%;
+      margin-bottom: 1rem;
+      padding: 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #111;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="/path-to-your-logo.png" alt="Nation of Light Logo" />
+    <h1>Nation of Light</h1>
+    <p class="bio">
+      "You are the light of the world." – Matthew 5:14<br />
+      Bilingual worship collective sharing the light of Christ through music.
+    </p>
+    <a href="#" class="button">🎧 Stream Here Now / Ven Aquí</a>
+    <div class="socials">
+      <a href="https://instagram.com/nationoflightworship" target="_blank">Instagram</a>
+      <a href="https://facebook.com/nationoflightworship" target="_blank">Facebook</a>
+    </div>
+  </header>
+
+  <form action="https://formspree.io/f/your-form-id" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</body>
+</html>
